@@ -32,6 +32,31 @@ export const RoutersLink = [{
   link: '/lookbook'
 }];
 
+export const womenProduct = {
+  "products": [
+    {
+      "name": "Women Product 1",
+      "image_file": "files.sirclocdn.xyz/frontend-test-37/images/women-product-1.jpg"
+    },
+    {
+      "name": "Women Product 2",
+      "image_file": "files.sirclocdn.xyz/frontend-test-37/images/women-product-2.jpg"
+    },
+    {
+      "name": "Women Product 3",
+      "image_file": "files.sirclocdn.xyz/frontend-test-37/images/women-product-3.jpg"
+    },
+    {
+      "name": "Women Product 4",
+      "image_file": "files.sirclocdn.xyz/frontend-test-37/images/women-product-4.jpg"
+    },
+    {
+      "name": "Women Product 5",
+      "image_file": "files.sirclocdn.xyz/frontend-test-37/images/women-product-5.jpg"
+    }
+  ]
+};
+
 export const RouteSwitch = () => {
   return(
     <Switch>
