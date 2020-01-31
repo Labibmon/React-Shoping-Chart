@@ -8,11 +8,14 @@ export const SliderComponent = (props) => {
   return(
     <Slider 
       dots
-      infinite={false}
-      speed={300}
+      infinite
+      speed={500}
       slidesToShow={4}
       slidesToScroll={4} 
-      variableWidth>
+      autoplay
+      autoplaySpeed={5000}
+      variableWidth
+      adaptiveHeight>
       {props.dataMap.products.map((data,index)=>{
         return <div key={index} className="product mr-3">
           <Zoom>

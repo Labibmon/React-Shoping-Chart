@@ -21,6 +21,17 @@ export const FooterComponent = () => {
             </Col>
           </Row>
         </Container>
+        <div className="d-flex overflow-auto">
+          <img src="https://dummyimage.com/151x151/000/fff" />
+          <img src="https://dummyimage.com/151x151/000/fff" />
+          <img src="https://dummyimage.com/151x151/000/fff" />
+          <img src="https://dummyimage.com/151x151/000/fff" />
+          <img src="https://dummyimage.com/151x151/000/fff" />
+          <img src="https://dummyimage.com/151x151/000/fff" />
+          <img src="https://dummyimage.com/151x151/000/fff" />
+          <img src="https://dummyimage.com/151x151/000/fff" />
+          <img src="https://dummyimage.com/151x151/000/fff" />
+        </div>
       </div>
       <Container className="mt-5">
         <Row>

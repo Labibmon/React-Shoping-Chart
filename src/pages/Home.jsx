@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import { BannerComponent } from './Home/BannerComponent';
-import { womenProduct } from '../Utils/Utils';
+import { womenProduct, menProduct, accesoriesProduct } from '../Utils/Utils';
 import { SliderComponent } from './Home/SliderComponent';
 
 class Home extends Component {
@@ -29,9 +29,13 @@ class Home extends Component {
               src="https://files.sirclocdn.xyz/frontend-test-37/images/this-month-banner-slider.jpg"></img>
           </Col>
           <Col md={12} className="mt-5">
-            <div className="mb-5">
+            <div className="mb-5 px-3">
               <h3>POPULAR IN WOMEN</h3>
               <SliderComponent dataMap={womenProduct} />
+              <h3>POPULAR IN MEN</h3>
+              <SliderComponent dataMap={menProduct} />
+              <h3>POPULAR IN ACCESORIES</h3>
+              <SliderComponent dataMap={accesoriesProduct} />
             </div>
             <hr />
             <div>
@@ -41,7 +45,6 @@ class Home extends Component {
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, aliquam. Cumque ullam reprehenderit possimus veritatis ratione sint quas labore, impedit culpa voluptatum soluta odio quam ipsa dolor provident, totam voluptates!</p>
             </div>
           </Col>
-
         </Row>
       </Container>
     );
